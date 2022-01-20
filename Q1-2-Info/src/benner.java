@@ -1,4 +1,4 @@
 
 public class benner {
-	//Hallo mein Name ist Herr Benner ;)
+	//Hallo mein Name ist Herr Benner!
 }
