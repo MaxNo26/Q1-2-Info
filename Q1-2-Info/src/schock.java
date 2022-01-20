@@ -1,4 +1,4 @@
 
 public class schock {
-//Hallo hier ist Heinrich !!
+//Hallo hier ist Heinrich !
 }
