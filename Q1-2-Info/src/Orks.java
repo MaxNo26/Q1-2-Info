@@ -9,9 +9,9 @@
 public class Orks{
   
   // Anfang Attribute
-  private int ausdauer = 0;
-  private int kampfkraft = 0;
-  private int magie = 0;
+  private int ausdauer = (int)(Math.random()*20 + 20);
+  private int kampfkraft = (int)(Math.random()*40 + 50);
+  private int magie = (int)(Math.random()*5 + 10);
   // Ende Attribute
   
   public Orks() {

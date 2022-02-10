@@ -9,14 +9,15 @@
 public class OrkWelt{
   
   // Anfang Attribute
-  private static int Anzahl;
+  private  int Anzahl;
   private Orks [] OrkKeller;
   // Ende Attribute
   
   public OrkWelt() {
     this.Anzahl = 0;
     this.OrkKeller=new Orks[100];
-    OrkKeller[0]=new Orks(); 
+    
+    anfangsOrksErzeugen();
   }
 
   // Anfang Methoden
@@ -26,6 +27,16 @@ public class OrkWelt{
   private void willeVerbessern(int verbesserung, int wille) {
     // TODO hier Quelltext einfügen
     
+  }
+  private void anfangsOrksErzeugen() {
+	for (int i=0;i<100; i++) {
+		OrkKeller[i]=new Orks();
+		Anzahl=i; 
+		System.out.println("Ork " + i +" Ausdauer: " + OrkKeller[i].getAusdauer()+" Kampfkraft: " + OrkKeller[i].getKampfkraft()+" Magie: " + OrkKeller[i].getMagie());
+	}	
+	  
+	  
+  
   }
 
   public int [] kriegerSenden() {
